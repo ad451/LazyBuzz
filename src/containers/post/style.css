@@ -1,0 +1,33 @@
+.post__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post__headerLeft {
+  display: flex;
+  align-self: center;
+}
+.post__profilePic {
+  height: 25px;
+  border-radius: 5px;
+}
+.post {
+  background-color: azure;
+  max-width: 600px;
+  width: 90vw;
+  padding: 16px 24px;
+}
+.post__delete {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.post__delete:focus {
+  outline: none;
+}
+.post__photoUrl {
+  width: 100%;
+  margin: 16px 0px;
+  border-radius: 5px;
+  object-fit: cover;
+}
